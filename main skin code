@@ -587,3 +587,26 @@ span.warning-no.warnings {
   border: 1px solid #9dd8e0;
   box-shadow: 0px 0px 15px #9dd8e0;
 }
+
+
+.filters .expander {
+color: #9dd8e0;
+border: 1px solid #9dd8e0;
+border-radius: 5px;
+margin-bottom: .5em;
+box-shadow: none;
+ background: #080c0f;
+}
+
+filters .expanded .expander {
+background: #080c0f !important;
+background-image: none !important;
+}
+
+.filters .expander::before {
+content: "↕ ";
+}
+
+form dt {
+border-bottom: none;
+}
